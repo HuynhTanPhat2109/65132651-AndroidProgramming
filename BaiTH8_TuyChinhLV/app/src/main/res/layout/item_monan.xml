@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="80dp"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/rounded_image"
+    android:elevation="6dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@+id/imgAnhDaiDien"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="8dp"
+        android:layout_margin="10dp"
+        android:clipToOutline="true"
+        android:scaleType="centerCrop"
+        android:background="@drawable/rounded_image">
+
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:orientation="vertical"
+        android:paddingLeft="6dp"
+        android:layout_gravity="center_vertical">
+        <TextView
+            android:id="@+id/tvTenMonAn"
+            android:layout_width="match_parent"
+            android:layout_height="17dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"
+            android:text="Món thứ nhất"/>
+        <TextView
+            android:id="@+id/tvDonGia"
+            android:layout_width="match_parent"
+            android:layout_height="17dp"
+            android:textSize="15sp"
+            android:layout_marginBottom="5dp"
+            android:text="20.000"/>
+        <TextView
+            android:id="@+id/tvMoTa"
+            android:layout_width="match_parent"
+            android:layout_height="17dp"
+            android:textSize="15sp"
+            android:text="Nội dung mô tả"/>
+    </LinearLayout>
+</LinearLayout>
