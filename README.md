@@ -22,6 +22,16 @@
 
 ---
 
+### Bài TH10: Ví dụ Intent đơn giản ([Chi tiết](BaiTH10_IntentDonGian/app/src/main/java/ntu/tanphat/baith10_intentdongian/MainActivity.java))
+
+*   **Mô tả:** Học cách chuyển màn hình với intent đơn giản
+
+*   **Kết quả**
+
+<img src="Images/baith10_1.png" width="270" height="530" alt="BaiTH10 Screenshot">  <img src="Images/baith10_2.png" width="270" height="530" alt="BaiTH10 Screenshot">
+
+---
+
 ### Bài VD: Đọc báo RSS VnExpress ([Chi tiết](DocBaoRSS/app/src/main/java/ntu/tanphat/docbaorss/MainActivity.java))
 
 *   **Mô tả:** Tìm hiểu cách đọc báo file rss của VnExpress.
