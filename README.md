@@ -20,6 +20,18 @@
 ---
 *Quá trình thực hiện bài tập*
 
+---
+
+### Bài VD: Đọc báo RSS VnExpress ([Chi tiết](DocBaoRSS/app/src/main/java/ntu/tanphat/docbaorss/MainActivity.java))
+
+*   **Mô tả:** Tìm hiểu cách đọc báo file rss của VnExpress.
+
+*   **Kết quả**
+
+![DocBaoRSS Screenshot](Images/docbaorss.png)
+
+---
+
 ### Bài VD: Sử dụng DrawableResource ([Chi tiết](SuDungDrawableResource/app/src/main/res/layout/activity_main.xml))
 
 *   **Mô tả:** Học cách sử dụng DrawableResource để hiện thị giao diện đẹp mắt.
