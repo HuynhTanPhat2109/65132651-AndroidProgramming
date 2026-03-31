@@ -20,6 +20,34 @@
 ---
 *Quá trình thực hiện bài tập*
 
+### Bài TH13: Thay đổi Fragment ([Chi tiết](BaiTH13_ThayDoiFragment/app/src/main/java/ntu/tanphat/baith13_thaydoifragment/FooterFragment.java))
+
+*   **Mô tả:** Thực hành ví dụ cơ bản về cách chuyển đổi giữa các Fragment khi onclick button
+
+*   **Kết quả**
+
+<img src="Images/baith13_1.png" width="300" height="650" alt="baith13_1 Screenshot"> <img src="Images/baith13_2.png" width="300" height="650" alt="baith13_2 Screenshot"> <img src="Images/baith13_3.png" width="300" height="650" alt="baith13_1 Screenshot">
+
+---
+
+### Bài TH12: Fragment Động ([Chi tiết](BaiTH12_FragmentDong/app/src/main/java/ntu/tanphat/baith12_fragmentdong/MainActivity.java))
+
+*   **Mô tả:** Thực hành ví dụ đơn giản về Fragment Động
+
+*   **Kết quả**
+
+![BaiTH11 Screenshot](Images/baith12.png)
+
+---
+
+### Bài TH11: Fragment Tĩnh ([Chi tiết](BaiTH11_FragmentTinh/app/src/main/java/ntu/tanphat/baith11_fragmenttinh/ContentFragment.java))
+
+*   **Mô tả:** Thực hành ví dụ đơn giản về Fragment tĩnh 
+
+*   **Kết quả**
+
+![BaiTH11 Screenshot](Images/baith11.png)
+
 ---
 
 ### Bài Làm thêm: Ví dụ Intent nâng cao ([Chi tiết](VDIntentNangCao/app/src/main/java/ntu/tanphat/vdintentnangcao/HomeActivity.java))
