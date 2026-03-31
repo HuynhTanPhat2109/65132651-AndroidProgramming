@@ -22,6 +22,16 @@
 
 ---
 
+### Bài Làm thêm: Ví dụ Intent nâng cao ([Chi tiết](VDIntentNangCao/app/src/main/java/ntu/tanphat/vdintentnangcao/HomeActivity.java))
+
+*   **Mô tả:** Rèn luyện thêm kỹ thuật chuyển màn hình với Intent bằng việc tạo ứng dụng đăng nhập và hiện tên người dùng khi đăng nhập thành công.
+
+*   **Kết quả**
+
+<img src="Images/intentnangcao_1.png" width="300" height="650" alt="VDIntentNangcao1 Screenshot"> <img src="Images/intentnangcao_2.png" width="300" height="650" alt="VDIntentNangcao2 Screenshot"> <img src="Images/intentnangcao_3.png" width="300" height="650" alt="VDIntentNangcao3 Screenshot">
+
+---
+
 ### Bài TH10: Ví dụ Intent đơn giản ([Chi tiết](BaiTH10_IntentDonGian/app/src/main/java/ntu/tanphat/baith10_intentdongian/MainActivity.java))
 
 *   **Mô tả:** Học cách chuyển màn hình với intent đơn giản
@@ -32,7 +42,7 @@
 
 ---
 
-### Bài VD: Đọc báo RSS VnExpress ([Chi tiết](DocBaoRSS/app/src/main/java/ntu/tanphat/docbaorss/MainActivity.java))
+### Bài Làm thêm: Đọc báo RSS VnExpress ([Chi tiết](DocBaoRSS/app/src/main/java/ntu/tanphat/docbaorss/MainActivity.java))
 
 *   **Mô tả:** Tìm hiểu cách đọc báo file rss của VnExpress.
 
