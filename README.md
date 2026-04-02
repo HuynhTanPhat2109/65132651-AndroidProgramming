@@ -20,6 +20,16 @@
 ---
 *Quá trình thực hiện bài tập*
 
+### Bài Làm thêm: Bottom Navigation Bar ([Chi tiết](BottomNavigationBar/app/src/main/java/ntu/tanphat/bottomnavigationbar/MainActivity.java))
+
+*   **Mô tả:** Làm ví dụ về Bottom Navigation Bar để chuyển đổi các fragment khi click vào các menu bên dưới
+
+*   **Kết quả**
+
+<img src="Images/bottombar_home.png" width="300" height="650" alt="bottombar_home Screenshot"> <img src="Images/bottombar_store.png" width="300" height="650" alt="bottombar_store Screenshot"> <img src="Images/bottombar_wishlist.png" width="300" height="650" alt="bottombar_wishlist Screenshot"> <img src="Images/bottombar_profile.png" width="300" height="650" alt="bottombar_profile Screenshot">
+
+---
+
 ### Bài TH13: Thay đổi Fragment ([Chi tiết](BaiTH13_ThayDoiFragment/app/src/main/java/ntu/tanphat/baith13_thaydoifragment/FooterFragment.java))
 
 *   **Mô tả:** Thực hành ví dụ cơ bản về cách chuyển đổi giữa các Fragment khi onclick button
