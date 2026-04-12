@@ -20,6 +20,16 @@
 ---
 *Quá trình thực hiện bài tập*
 
+### Bài Làm thêm: ViewPager2 ([Chi tiết](VD_ViewPager2/app/src/main/java/ntu/tanphat/vd_viewpager2/MainActivity.java))
+
+*   **Mô tả:** Làm ví dụ về ViewPager2 để chuyển đổi các item qua lại
+
+*   **Kết quả**
+
+<img src="Images/vdviewpager1.png" width="300" height="650" alt="vdviewpager1 Screenshot"> <img src="Images/vdviewpager2.png" width="300" height="650" alt="vdviewpager2 Screenshot"> <img src="Images/vdviewpager3.png" width="300" height="650" alt="vdviewpager3 Screenshot"> <img src="Images/vdviewpager4.png" width="300" height="650" alt="vdviewpager4 Screenshot"> <img src="Images/vdviewpager5.png" width="300" height="650" alt="vdviewpager5 Screenshot">
+
+---
+
 ### Bài Làm thêm: Bottom Navigation Bar ([Chi tiết](BottomNavigationBar/app/src/main/java/ntu/tanphat/bottomnavigationbar/MainActivity.java))
 
 *   **Mô tả:** Làm ví dụ về Bottom Navigation Bar để chuyển đổi các fragment khi click vào các menu bên dưới
