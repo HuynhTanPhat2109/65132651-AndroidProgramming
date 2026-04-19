@@ -7,6 +7,9 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -14,16 +17,16 @@ import android.view.ViewGroup;
  * create an instance of this fragment.
  */
 public class Cau1Fragment extends Fragment {
-
-    // TODO: Rename parameter arguments, choose names that match
-    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-    private static final String ARG_PARAM1 = "param1";
-    private static final String ARG_PARAM2 = "param2";
-
-    // TODO: Rename and change types of parameters
-    private String mParam1;
-    private String mParam2;
-
+    EditText editTextWeight, editTextHeight;
+    Button cal_BMI;
+    TextView textViewBMI, textViewLoai;
+    void TimDieuKhien(View view){
+        editTextWeight = view.findViewById(R.id.edtWeight);
+        editTextHeight = view.findViewById(R.id.edtHeight);
+        cal_BMI = view.findViewById(R.id.btnTinhBMI);
+        textViewBMI = view.findViewById(R.id.tvBMI);
+        textViewLoai = view.findViewById(R.id.tvLoai);
+    }
     public Cau1Fragment() {
         // Required empty public constructor
     }
@@ -40,8 +43,6 @@ public class Cau1Fragment extends Fragment {
     public static Cau1Fragment newInstance(String param1, String param2) {
         Cau1Fragment fragment = new Cau1Fragment();
         Bundle args = new Bundle();
-        args.putString(ARG_PARAM1, param1);
-        args.putString(ARG_PARAM2, param2);
         fragment.setArguments(args);
         return fragment;
     }
@@ -49,16 +50,36 @@ public class Cau1Fragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
-        }
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_cau1, container, false);
+        View view = inflater.inflate(R.layout.fragment_cau1, container, false);
+        TimDieuKhien(view);
+        cal_BMI.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                TinhBMI();
+            }
+        });
+        return view;
+    }
+    void TinhBMI(){
+        String weight = editTextWeight.getText().toString();
+        String height = editTextHeight.getText().toString();
+        float canNang = Float.parseFloat(weight);
+        float chieuCao = Float.parseFloat(height);
+        chieuCao = chieuCao / 100;
+        float BMI = canNang / (chieuCao * chieuCao);
+        String ketquaBMI = String.valueOf(BMI);
+        textViewBMI.setText(ketquaBMI);
+        if(BMI < 18.5)
+            textViewLoai.setText("Gầy");
+        else if (BMI >= 18.5 && BMI <= 24.9)
+            textViewLoai.setText("Bình thường");
+        else
+            textViewLoai.setText("Thừa cân");
     }
 }

@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BaiTestThiGK">
         <activity
+            android:name=".ChitietBaiActivity"
+            android:exported="false" />
+        <activity
             android:name=".ChiTietMonActivity"
             android:exported="false" />
         <activity
