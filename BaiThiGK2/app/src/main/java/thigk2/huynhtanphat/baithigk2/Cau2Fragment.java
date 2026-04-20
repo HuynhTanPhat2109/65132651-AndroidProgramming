@@ -74,8 +74,7 @@ public class Cau2Fragment extends Fragment {
 //            Intent intent = new Intent(getContext(), ChiTietMonActivity.class);
 //            intent.putExtra("tenMon", strTenMonAn);
 //            startActivity(intent);
-            String strTenCaKhuc = DsCaKhuc.get(position);
-            Toast.makeText(MainActivity.this,strTenCaKhuc,Toast.LENGTH_LONG).show();
+            Toast.makeText(getContext(),strTenCaKhuc,Toast.LENGTH_LONG).show();
         }
     };
 }
