@@ -5,6 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".Cau1Fragment">
+
     <LinearLayout
         android:id="@+id/linearLayout3"
         android:layout_width="match_parent"
@@ -16,9 +17,7 @@
         android:layout_marginBottom="25dp"
         android:paddingTop="5dp"
         android:paddingEnd="30dp"
-        android:paddingBottom="5dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        android:paddingBottom="5dp">
 
         <ImageView
             android:layout_width="140dp"
@@ -28,7 +27,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Danh sách ca khúc"
+            android:text="Chuyển đổi tiền tệ"
             android:textSize="23sp"
             android:textStyle="bold" />
     </LinearLayout>
@@ -40,7 +39,7 @@
         android:textSize="18sp" />
 
     <EditText
-        android:id="@+id/edtAmount"
+        android:id="@+id/edtTien"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Ví dụ: 25000"
@@ -54,21 +53,21 @@
         android:textSize="18sp" />
 
     <EditText
-        android:id="@+id/edtRate"
+        android:id="@+id/edtTiGia"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Ví dụ: 3"
+        android:hint="Ví dụ: 25450"
         android:inputType="numberDecimal" />
 
     <Button
-        android:id="@+id/btnConvert"
+        android:id="@+id/btnDoi"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:text="Chuyển đổi sang USD" />
 
     <TextView
-        android:id="@+id/tvResult"
+        android:id="@+id/tvKetQua"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"

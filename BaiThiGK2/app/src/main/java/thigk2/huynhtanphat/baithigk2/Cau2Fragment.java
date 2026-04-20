@@ -45,16 +45,16 @@ public class Cau2Fragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_cau2, container, false);
         //Hiển thị dữ liệu lên ListView
         //B1: Cần có dữ liệu
-        DsCaKhuc.add("Nơi này của anh Huỳnh Tấn Phát");
+        DsCaKhuc.add("Huỳnh Tấn Phát");
         DsCaKhuc.add("Bạc phận");
         DsCaKhuc.add("Lời của gió");
         DsCaKhuc.add("Sóng gió");
         DsCaKhuc.add("Đom đóm");
         DsCaKhuc.add("Lạc trôi");
-        DsCaKhuc.add("Lạc trôi");
-        DsCaKhuc.add("Lạc trôi");
-        DsCaKhuc.add("Lạc trôi");
-        DsCaKhuc.add("Lạc trôi");
+        DsCaKhuc.add("Nơi này của anh ");
+        DsCaKhuc.add("Chúng ta của hiện tại");
+        DsCaKhuc.add("Yêu 5");
+        DsCaKhuc.add("Nến và hoa");
 
         //B2: Tạo Adapter
         ArrayAdapter<String> adapterMonAn = new ArrayAdapter<String>(view.getContext(),
