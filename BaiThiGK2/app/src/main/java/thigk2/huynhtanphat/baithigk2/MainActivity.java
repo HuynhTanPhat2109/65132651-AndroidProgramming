@@ -1,4 +1,4 @@
-package thigk2.huynhtanphat.baitestthigk;
+package thigk2.huynhtanphat.baithigk2;
 
 import android.os.Bundle;
 import android.view.MenuItem;
@@ -27,20 +27,20 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
         BottomNavigationView bottomNav = findViewById(R.id.bottomNavigationView);
-        getSupportFragmentManager().beginTransaction().replace(R.id.fragmentSpace,new C()).commit();
+        getSupportFragmentManager().beginTransaction().replace(R.id.fragmentSpace,new Cau1Fragment()).commit();
         bottomNav.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
                 Fragment selectedFragment = null;
                 int itemId = menuItem.getItemId();
                 if(itemId == R.id.navigationCau1){
-                    selectedFragment = new HomeFragment();
-                } else if(itemId == R.id.navigationCau2){
                     selectedFragment = new Cau1Fragment();
-                } else if(itemId == R.id.navigationCau3){
+                } else if(itemId == R.id.navigationCau2){
                     selectedFragment = new Cau2Fragment();
-                } else if(itemId == R.id.navigationCau4){
+                } else if(itemId == R.id.navigationCau3){
                     selectedFragment = new Cau3Fragment();
+                } else if(itemId == R.id.navigationCau4){
+                    selectedFragment = new Cau4Fragment();
                 }
 
                 if(selectedFragment != null){
