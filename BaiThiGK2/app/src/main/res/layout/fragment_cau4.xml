@@ -16,14 +16,12 @@
         android:paddingStart="10dp"
         android:paddingTop="5dp"
         android:paddingEnd="30dp"
-        android:paddingBottom="5dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        android:paddingBottom="5dp">
 
         <ImageView
             android:layout_width="140dp"
             android:layout_height="wrap_content"
-            android:src="@mipmap/anhbacsi" />
+            android:src="@mipmap/danhnhan2" />
 
         <TextView
             android:layout_width="match_parent"
@@ -38,7 +36,7 @@
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_marginTop="30dp"
-        android:src="@mipmap/ic_launcher_round"
+        android:src="@mipmap/ducduy"
         android:contentDescription="Avatar" />
 
     <!-- Họ và tên -->
