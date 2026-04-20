@@ -58,11 +58,11 @@ public class Cau3Fragment extends Fragment {
     }
     ArrayList<LandScape> getDataForRecyclerview(){
         ArrayList<LandScape> dsDuLieu = new ArrayList<LandScape>();
-        dsDuLieu.add(new LandScape("hungdao", "Trần Hưng đạo", "21/09/2005"));
-        dsDuLieu.add(new LandScape("tutrong", "Lý Tự trọng", "09/09/2005"));
-        dsDuLieu.add(new LandScape("phanboichau", "Phan Bội Châu", "04/12/2024"));
-        dsDuLieu.add(new LandScape("phanchutrinh", "Phan Chu Trinh", "11/07/2025"));
-        dsDuLieu.add(new LandScape("nguyenchanh", "Nguyễn Chánh", "09/04/2026"));
+        dsDuLieu.add(new LandScape("hungdao", "Trần Hưng đạo", "Nha Trang"));
+        dsDuLieu.add(new LandScape("tutrong", "Lý Tự trọng", "Nha Trang"));
+        dsDuLieu.add(new LandScape("phanboichau", "Phan Bội Châu", "Nha Trang"));
+        dsDuLieu.add(new LandScape("phanchutrinh", "Phan Chu Trinh", "Nha Trang"));
+        dsDuLieu.add(new LandScape("nguyenchanh", "Nguyễn Chánh", "Nha Trang"));
         return dsDuLieu;
 
     }

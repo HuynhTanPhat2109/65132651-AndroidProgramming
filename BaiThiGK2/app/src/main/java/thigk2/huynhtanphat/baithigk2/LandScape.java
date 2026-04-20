@@ -5,10 +5,10 @@ public class LandScape {
     String ten;
     String quequan;
 
-    public LandScape(String landImageFileName, String landCaption, String landTime) {
+    public LandScape(String landImageFileName, String ten, String quequan) {
         this.landImageFileName = landImageFileName;
-        this.ten = landCaption;
-        this.quequan = landTime;
+        this.ten = ten;
+        this.quequan = quequan;
     }
 
     public String getLandImageFileName() {

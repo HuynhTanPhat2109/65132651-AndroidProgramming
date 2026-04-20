@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -64,9 +65,9 @@ public class LandScapeAdapter extends RecyclerView.Adapter<LandScapeAdapter.Item
 
         public ItemLandScapeViewHolder(@NonNull View itemView) {
             super(itemView);
-            textViewMedicineName = itemView.findViewById(R.id.txtMedicineName);
-            textViewTime = itemView.findViewById(R.id.txtTime);
-            imageViewLandScape = itemView.findViewById(R.id.imgMedicine);
+            textViewMedicineName = itemView.findViewById(R.id.txtTenDN);
+            textViewTime = itemView.findViewById(R.id.txtQQ);
+            imageViewLandScape = itemView.findViewById(R.id.imgDN);
             itemView.setOnClickListener(this);
         }
 
@@ -74,13 +75,11 @@ public class LandScapeAdapter extends RecyclerView.Adapter<LandScapeAdapter.Item
         public void onClick(View v) {
             int viTriDuocClick = getAdapterPosition();
             LandScape ptDuocClick = data.get(viTriDuocClick);
-            String ten = ptDuocClick.getLandCaption();
+            String ten = ptDuocClick.getTen();
             String tenFile = ptDuocClick.getLandImageFileName();
             String chuoiThongBao = "Bạn vừa click vào: " + ten;
-//            Toast.makeText(v.getContext(), chuoiThongBao, Toast.LENGTH_SHORT).show();
-            Intent intent = new Intent(v.getContext(), ChitietBaiActivity.class);
-            intent.putExtra("tenBai", ten);
-            v.getContext().startActivity(intent);
+            Toast.makeText(v.getContext(), chuoiThongBao, Toast.LENGTH_SHORT).show();
+
         }
     }
 }
