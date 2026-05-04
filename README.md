@@ -20,6 +20,14 @@
 ---
 *Quá trình thực hiện bài tập*
 
+### Bài Thi GK2: ([Chi tiết](BaiThiGK2/app/src/main/java/thigk2/huynhtanphat/baithigk2/MainActivity.java))
+
+*   **Mô tả:** Bài thi giữa kỳ 2 đề 02
+
+*   **Kết quả**
+
+<img src="Images/chucnang4.png" width="300" height="650" alt="chucnang4Screenshot"> <img src="Images/chucnang3.png" width="300" height="650" alt="chucnang3 Screenshot"> <img src="Images/chucnang2.png" width="300" height="650" alt="chucnang2 Screenshot"> <img src="Images/chucnang1.png" width="300" height="650" alt="chucnang1 Screenshot">
+
 ### Bài Làm thêm: ViewPager2 ([Chi tiết](VD_ViewPager2/app/src/main/java/ntu/tanphat/vd_viewpager2/MainActivity.java))
 
 *   **Mô tả:** Làm ví dụ về ViewPager2 để chuyển đổi các item qua lại
