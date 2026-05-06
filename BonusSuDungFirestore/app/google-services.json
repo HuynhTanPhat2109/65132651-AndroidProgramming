@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "912912370872",
+    "project_id": "sudungfirestore",
+    "storage_bucket": "sudungfirestore.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:912912370872:android:7aad757ae3ed3e7b62784d",
+        "android_client_info": {
+          "package_name": "ntu.tanphat.bonussudungfirestore"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8DBm6hVzc7DoTFUrQ7JmiyhcS6zGhQJM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
