@@ -28,6 +28,28 @@
 
 <img src="Images/chucnang4.png" width="300" height="650" alt="chucnang4Screenshot"> <img src="Images/chucnang3.png" width="300" height="650" alt="chucnang3 Screenshot"> <img src="Images/chucnang2.png" width="300" height="650" alt="chucnang2 Screenshot"> <img src="Images/chucnang1.png" width="300" height="650" alt="chucnang1 Screenshot">
 
+---
+
+### Bài ViecCanLam: ([Chi tiết](ViecCanLam/app/src/main/java/ntu/tanphat/vieccanlam/MainActivity.java))
+
+*   **Mô tả:** Làm bài tập ví dụ về kết nối cơ sở dữ liệu Firebase
+
+*   **Kết quả**
+
+<img src="Images/vieccanlam1.png" width="300" height="650" alt="vieccanlam1 Screenshot"> <img src="Images/vieccanlam2.png" width="300" height="650" alt="vieccanlam1 Screenshot">
+
+---
+
+### Bài QuanLyChiTieu ([Chi tiết](QuanLyChiTieu/app/src/main/java/ntu/tanphat/quanlychitieu/MainActivity.java))
+
+*   **Mô tả:** Học về kết nối cơ sở dữ liệu Firebase
+
+*   **Kết quả**
+
+<img src="Images/quanlychitieu.png" width="300" height="650" alt="quanlychitieu Screenshot">
+
+---
+
 ### Bài Làm thêm: ViewPager2 ([Chi tiết](VD_ViewPager2/app/src/main/java/ntu/tanphat/vd_viewpager2/MainActivity.java))
 
 *   **Mô tả:** Làm ví dụ về ViewPager2 để chuyển đổi các item qua lại
