@@ -30,6 +30,16 @@
 
 ---
 
+### Bài BonusLoginAndRegister: ([Chi tiết](BonusLoginAndRegister/app/src/main/java/ntu/tanphat/bonusloginandregister/LoginActivity.java))
+
+*   **Mô tả:** Luyện tập bài tập đăng nhập / đăng ký sử dụng Firebase
+
+*   **Kết quả**
+
+<img src="Images/dangnhapfb.png" width="300" height="650" alt="dangnhapfb Screenshot"> <img src="Images/dangkyfb.png" width="300" height="650" alt="dangkyfb Screenshot"> <img src="Images/auth.png" width="300" height="650" alt="auth Screenshot">
+
+---
+
 ### Bài ViecCanLam: ([Chi tiết](ViecCanLam/app/src/main/java/ntu/tanphat/vieccanlam/MainActivity.java))
 
 *   **Mô tả:** Làm bài tập ví dụ về kết nối cơ sở dữ liệu Firebase
