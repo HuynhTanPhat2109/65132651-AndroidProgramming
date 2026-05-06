@@ -40,6 +40,16 @@
 
 ---
 
+### Bài BonusSuDungFirestore: ([Chi tiết](BonusSuDungFirestore/app/src/main/java/ntu/tanphat/bonussudungfirestore/MainActivity.java))
+
+*   **Mô tả:** Học thêm về việc sử dụng Firestore để làm ví dụ thêm sản phầm và xem danh sách sản phẩm
+
+*   **Kết quả**
+
+<img src="Images/firestore.png" width="300" height="650" alt="firestore Screenshot">
+
+---
+
 ### Bài ViecCanLam: ([Chi tiết](ViecCanLam/app/src/main/java/ntu/tanphat/vieccanlam/MainActivity.java))
 
 *   **Mô tả:** Làm bài tập ví dụ về kết nối cơ sở dữ liệu Firebase
