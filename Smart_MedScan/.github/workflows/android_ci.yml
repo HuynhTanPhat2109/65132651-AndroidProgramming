@@ -2,7 +2,7 @@ name: Android CI/CD
 
 on:
   push:
-    branches: [ main" ] # Chạy mỗi khi bạn push code lên nhánh chính
+    branches: [ "main" ] # Chạy mỗi khi bạn push code lên nhánh chính
   pull_request:
     branches: [ "main" ]
 
