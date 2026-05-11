@@ -21,7 +21,9 @@ jobs:
           cache: gradle
 
       - name: Grant execute permission for gradlew
+        working-directory: ./Smart_MedScan
         run: chmod +x gradlew
 
       - name: Build with Gradle
+        working-directory: ./Smart_MedScan
         run: ./gradlew build # Ra lệnh cho robot tự build thử App
